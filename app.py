@@ -1,6 +1,12 @@
 import math
 import streamlit as st
 
+st.set_page_config(
+    page_title="いくらナビ",
+    page_icon="🍺",
+    layout="centered",
+)
+
 st.title("🍺 いくらナビ")
 st.caption("飲み会・食事の割り勘計算アプリ")
 
